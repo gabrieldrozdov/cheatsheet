@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Cheatsheet | JS</title>
+
+	<link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+
+	<nav class="nav">
+		<a href="/html/" class="nav-link">HTML</a>
+		<a href="/css/" class="nav-link">CSS</a>
+		<a href="/js/" class="nav-link" data-active="1">JS</a>
+		<button class="menu-toggle" onclick="toggleMenu();">
+			<div></div>
+			<div></div>
+			<div></div>
+		</button>
+	</nav>
+
+	<div class="menu" data-active="0">
+		<button class="menu-close" onclick="toggleMenu();">
+			<div class="menu-close-1"></div>
+			<div class="menu-close-2"></div>
+		</button>
+		<div class="menu-content">
+			<a class="menu-section" href="#how-to-code">
+				<div class="menu-section-number">1</div>
+				<div class="menu-section-name">How to code</div>
+			</a>
+			<a class="menu-section" href="#elements">
+				<div class="menu-section-number">2</div>
+				<div class="menu-section-name">Elements</div>
+			</a>
+			<a class="menu-section" href="#document">
+				<div class="menu-section-number">3</div>
+				<div class="menu-section-name">HTML documents</div>
+			</a>
+			<a class="menu-section" href="#typography">
+				<div class="menu-section-number">4</div>
+				<div class="menu-section-name">Typography</div>
+			</a>
+			<a class="menu-section" href="#links">
+				<div class="menu-section-number">5</div>
+				<div class="menu-section-name">Links</div>
+			</a>
+			<a class="menu-section" href="#media">
+				<div class="menu-section-number">6</div>
+				<div class="menu-section-name">Media</div>
+			</a>
+			<a class="menu-section" href="#forms">
+				<div class="menu-section-number">7</div>
+				<div class="menu-section-name">Forms</div>
+			</a>
+		</div>
+	</div>
+
+	<main class="container">
+		<header class="header">
+			<h1 class="header-title">
+				<span class="header-title-small">JavaScript</span>
+				<span class="header-title-big">JS</span>
+			</h1>
+		</header>
+	</main>
+
+	<script src="/script.js"></script>
+</body>
+
+</html>
