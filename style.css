@@ -508,6 +508,19 @@ code {
 	margin-bottom: 1.25em;
 	max-width: 400px;
 }
+.section-info h3 {
+	font-size: 14px;
+	line-height: 1.25em;
+	text-wrap: pretty;
+	margin-top: 2.5em;
+	margin-bottom: 0.675em;
+	max-width: 400px;
+	font-family: "Red Hat Mono", monospace;
+	font-variation-settings: "wght" 700;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: .2em;
+}
 .section-info ul,
 .section-info ol {
 	font-size: 14px;

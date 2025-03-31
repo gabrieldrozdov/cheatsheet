@@ -28,6 +28,11 @@ function toggleMenu() {
 	}
 }
 
+// Close menu when link pressed
+for (let link of document.querySelectorAll('.menu a')) {
+	link.addEventListener('click', toggleMenu);
+}
+
 // Animate in links
 const transitionObserverLinks = new IntersectionObserver((entries) => {
 	entries.forEach((entry) => {
@@ -44,7 +49,7 @@ for (let link of document.querySelectorAll('.section-content > a')) {
 	transitionObserverLinks.observe(link);
 }
 
-// Animate in links
+// Animate in sections
 const transitionObserverSections = new IntersectionObserver((entries) => {
 	entries.forEach((entry) => {
 		let elmnt = entry.target;
