@@ -5,7 +5,16 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Cheatsheet | HTML</title>
+
+	<meta name="author" content="Gabriel Drozdov / GD with GD">
+	<meta name="keywords" content="Web Design, Web Development, Creative Coding, Design Education, Code Education, Storytelling, Pedagogy">
+	<meta name="description" content="Everything you need to know to make a website!">
+	<meta property="og:url" content="https://cheatsheet.gdwithgd.com/">
+	<meta name="og:title" property="og:title" content="Cheatsheet, by GD with GD">
+	<meta property="og:description" content="Everything you need to know to make a website!">
+	<meta property="og:image" content="/assets/meta/opengraph.jpg">
 	<link rel="icon" type="png" href="/assets/meta/favicon.png">
+	<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>📝</text></svg>">
 
 	<link rel="stylesheet" href="/style.css">
 </head>
@@ -16,14 +25,14 @@
 		<a href="/html/" class="nav-link" data-active="1">HTML</a>
 		<a href="/css/" class="nav-link">CSS</a>
 		<a href="/js/" class="nav-link">JS</a>
-		<button class="menu-toggle" onclick="toggleMenu();">
+		<!-- <button class="menu-toggle" onclick="toggleMenu();">
 			<div></div>
 			<div></div>
 			<div></div>
-		</button>
+		</button> -->
 	</nav>
 
-	<div class="menu" data-active="0">
+	<!-- <div class="menu" data-active="0">
 		<button class="menu-close" onclick="toggleMenu();">
 			<div class="menu-close-1"></div>
 			<div class="menu-close-2"></div>
@@ -57,7 +66,7 @@
 				<div class="menu-section-number">7</div>
 				<div class="menu-section-name">Forms</div>
 			</a>
-		</div>
+		</div> -->
 	</div>
 
 	<main class="container">
@@ -146,7 +155,7 @@
 
 					<h3>Entities</h3>
 					<p>
-						Sometimes, we need to type characters that conflict with the way we type HTML code. For example, we might need to type the less-than symbol (&lt;), which is the same symbol we use for starting HTML tags. To get around this, we can use <strong>entities</strong> that represent symbols. We write the less-than entity as &amp;lt;.
+						Sometimes, we need to type characters that conflict with the way we type HTML code. For example, we might need to type the less-than symbol (<code>&lt;</code>), which is the same symbol we use for starting HTML tags. To get around this, we can use <strong>entities</strong> that represent symbols. We write the less-than entity as <code>&amp;lt;</code>
 					</p>
 				</div>
 				<div class="section-content">
@@ -189,10 +198,10 @@
 						HTML files (<strong>.html</strong>) have a general structure that you should try to follow whenever possible. If you’re using <a href="https://code.visualstudio.com/" target="_blank">Visual Studio Code</a>, you can type <code>!</code> and then press enter in an empty HTML file to generate a standard HTML document template.
 					</p>
 					<p>
-						We can add <strong>CSS</strong> and <strong>JavaScript</strong> inside of an HTML document using the &lt;style&gt; and &lt;script&gt; elements. The &lt;style&gt; element typically goes right before the &lt;/head&gt; tag, and the &lt;script&gt; elements right before the &lt;/body&gt; tag.
+						We can add <strong>CSS</strong> and <strong>JavaScript</strong> inside of an HTML document using the <code>&lt;style&gt;</code> and <code>&lt;script&gt;</code> elements. The <code>&lt;style&gt;</code> element typically goes right before the <code>&lt;/head&gt;</code> tag, and the <code>&lt;script&gt;</code> elements right before the <code>&lt;/body&gt;</code> tag.
 					</p>
 					<p>
-						We can link to a separate CSS file by adding a &lt;link&gt; element inside of the &lt;head&gt; element. Linking to a JavaScript file uses the same &lt;script&gt; element as before.
+						We can link to a separate CSS file by adding a <code>&lt;link&gt;</code> element inside of the <code>&lt;head&gt;</code> element. Linking to a JavaScript file uses the same <code>&lt;script&gt;</code> element as before.
 					</p>
 				</div>
 				<div class="section-content">
@@ -345,7 +354,7 @@
 					<h2><a href="#forms">Forms</a></h2>
 					<p>
 						Form elements are used to build user interfaces for submitting information
-						or for applying settings to a page. The &lt;input&gt; element is special
+						or for applying settings to a page. The <code>&lt;input&gt;</code> element is special
 						because it can adopt a wide variety of behaviors depending on its
 						<code>type</code> attribute.
 					</p>
