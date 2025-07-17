@@ -64,7 +64,7 @@ code {
 	position: relative;
 	overflow: hidden;
 	align-items: center;
-	justify-content: center;
+	justify-content: safe center;
 	padding: 40px;
 	gap: 40px;
 }
