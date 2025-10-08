@@ -147,7 +147,7 @@ code {
 	font-weight: 300;
 	padding-top: 20px;
 	font-variation-settings: "wght" 300, "SRFF" 0;
-	letter-spacing: -0.05em;
+	letter-spacing: -0.02em;
 	text-wrap: pretty;
 }
 .home-nav {
@@ -257,7 +257,6 @@ code {
 	font-size: 18px;
 	text-wrap: pretty;
 	line-height: 1.25em;
-	letter-spacing: -0.02em;
 	max-width: 320px;
 }
 @media (max-width: 1050px) {
@@ -653,7 +652,7 @@ code {
 	font-size: 20px;
 	line-height: 1em;
 	padding-top: .2em;
-	letter-spacing: -0.04em;
+	letter-spacing: -0.02em;
 	font-variation-settings: "wght" 700, "SRFF" 0;
 	text-decoration: underline;
 	text-decoration-color: var(--primary);
@@ -771,7 +770,7 @@ code {
 	font-variation-settings: "wght" 800, "SRFF" 0;
 	font-weight: 800;
 	line-height: 1em;
-	letter-spacing: -0.05em;
+	letter-spacing: -0.04em;
 	font-size: 40px;
 	margin-bottom: 40px;
 	text-wrap: balance;
@@ -795,7 +794,6 @@ code {
 	font-size: 18px;
 	line-height: 1.25em;
 	text-wrap: pretty;
-	letter-spacing: -0.02em;
 	margin-bottom: 1.25em;
 	max-width: 400px;
 }
